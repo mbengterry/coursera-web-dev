@@ -1,7 +1,16 @@
 
-section {
-    background-color: gray;
+* {
+    box-sizing: border-box;
+    top: 0px;
 }
+section {
+    background-color: grey;
+    width: 30%;
+    margin-left: 7px;
+    margin-bottom: 5px;
+    float: left;
+    padding: 10px;
+}    
 
 .chicken {
     background-color: gray;
@@ -9,4 +18,12 @@ section {
 
 h3 {
     font-family: Arial, Helvetica, sans-serif;
+    
+    position: relative;
+    right: 0px;
+    top: 0px;
+    float: right;
+    margin-top: 0%;
+    background-color: hotpink;
+    width: 5em;
 }
